@@ -8,9 +8,11 @@ I wanted to try more than just detecting the car itself. If a car is partly hidd
 
 ![Early experiment showing an occupied parking photo, an empty garage photo, and their image difference](docs/images/earlypark.png)
 
-This was an early experiment with OpenCV in 2022:it loads 2 photos, compare their pixels, and select an area to inspect. The empty garage and occupied outdoor lot in this screenshot are different places. Their difference image shows that the scenes are different; it does **not** prove that parking occupancy was detected.
+This was an early experiment with OpenCV in **2022**: it loads 2 photos, compare their pixels, and select an area to inspect. The empty garage and occupied outdoor lot in this screenshot are different places. Their difference image shows that the scenes are different; it does **not** prove that parking occupancy was detected.
 
 For a useful comparison, both images need to show the same parking spaces from the same camera position and at the same resolution. One is the empty reference, and the other is the image being checked.
+
+I’ve included my original OpenCV scripts, [capture_os.py](early-experiments/capture_os.py) and [parking_test.py](early-experiments/parking_test.py), if you want to see where I started with capturing photos and comparing pixel changes.
 
 ## Why Riyadh?
 
