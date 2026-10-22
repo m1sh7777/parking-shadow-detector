@@ -14,7 +14,7 @@ For a useful comparison, both images need to show the same parking spaces from t
 
 I’ve included my original OpenCV scripts, [capture_os.py](early-experiments/capture_os.py) and [parking_test.py](early-experiments/parking_test.py), if you want to see where I started with capturing photos and comparing pixel changes.
 
-## Why Riyadh?
+## Local Usage 
 
 I wanted to give the project some local purpose, so I included a map of parking locations in Riyadh. The current data file contains 210 parking features from OpenStreetMap. These are mapped locations, not live readings from my detector, and they are not a complete list of parking in the city.
 
