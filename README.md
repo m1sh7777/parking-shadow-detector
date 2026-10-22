@@ -1,4 +1,4 @@
-# Shadow parking detector
+# parking shadow detector
 
 This is my parking occupancy project. The idea is to use a fixed camera to check which parking spaces are taken, then show green boxes for empty spaces, red boxes for occupied ones, and a percentage full.
 
