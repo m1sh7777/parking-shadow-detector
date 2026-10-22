@@ -1,0 +1,15 @@
+opencv-python>=4.8
+numpy>=1.24
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+
+# Optional: YOLOv8n vehicle detector (Phase 1 primary detector).
+# Install separately: pip install ultralytics
+# ultralytics>=8.2
+
+# Optional: Phase 0b tiny-CNN patch classifier training (CPU is fine at 150x150).
+# torch>=2.2
+# torchvision>=0.17
+
+# Testing (optional): pip install pytest httpx

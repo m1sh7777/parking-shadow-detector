@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+# captures and state
+empty.jpg
+occupied.jpg
+reference.jpg
+spots.json
+reference_spots.npz
+yolov8n.pt
+# data
+data/raw/
+data/*.zip
